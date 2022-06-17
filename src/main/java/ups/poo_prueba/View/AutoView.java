@@ -187,11 +187,13 @@ public class AutoView extends javax.swing.JFrame {
     private void jButtonAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAddActionPerformed
         create();
         clearData();
-        showTable();
+        showData();
+        System.out.println("auto agregado");
     }//GEN-LAST:event_jButtonAddActionPerformed
 
     private void jButtonShowActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonShowActionPerformed
-       showTable();
+       showData();
+       System.out.println(autoController.list());
     }//GEN-LAST:event_jButtonShowActionPerformed
 
     
@@ -207,7 +209,7 @@ public class AutoView extends javax.swing.JFrame {
         autoController.create(args);
     }
     
-    public void showTable(){
+    public void showData(){
         
         var header = new String[5];
         
