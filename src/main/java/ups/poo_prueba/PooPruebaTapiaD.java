@@ -5,6 +5,8 @@
 
 package ups.poo_prueba;
 
+import ups.poo_prueba.View.AutoView;
+
 /**
  *
  * @author Diego
@@ -12,6 +14,8 @@ package ups.poo_prueba;
 public class PooPruebaTapiaD {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        AutoView autoView = new AutoView();
+        autoView.setTitle("Mantenimiento Auto");
+        autoView.setVisible(true);
     }
 }
