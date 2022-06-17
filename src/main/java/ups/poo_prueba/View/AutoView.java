@@ -50,6 +50,7 @@ public class AutoView extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(java.awt.Color.lightGray);
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Auto"));
 
         jLabel1.setText("Placa");
